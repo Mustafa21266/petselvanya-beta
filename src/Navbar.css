@@ -1,0 +1,13 @@
+.anchor-styling {
+    text-decoration: none;
+    color: white;
+}
+.nav-bar-styling {
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}

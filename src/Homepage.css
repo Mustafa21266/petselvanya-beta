@@ -1,0 +1,240 @@
+.homepage-top-div {
+    padding: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#9c5d41;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+  
+  /* https://epicbootstrap.com/snippets/footer-dark */
+
+  #circle {
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    z-index: 0;
+  }
+
+#rectangle {
+    width: 400px;
+    height: 30%;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: -50px;
+    right: 50px;
+    z-index: 0;
+  }
+
+  #triangleTopright {
+    width: 0;
+    height: 0;
+    border-top: 100px solid rgba(0, 0, 0, 0.4);
+    border-left: 100px solid transparent;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 0;
+  }
+
+
+  #flag {
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    padding-top: 15px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+  }
+  #flag:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 13px solid #eee;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+  }
+
+
+  #burstEight {
+    background: rgba(0, 0, 0, 0.3);
+    width: 150px;
+    height: 150px;
+    position: relative;
+    text-align: center;
+    transform: rotate(20deg);
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    z-index: 0;
+  }
+  #burstEight:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 150px;
+    background: rgba(0, 0, 0, 0.3);;
+    transform: rotate(135deg);
+  }
+
+  #triangleTopright {
+    width: 0;
+    height: 0;
+    border-top: 100px solid rgba(255, 0, 0, 0.7);
+    border-left: 100px solid transparent;
+  }
+
+
+
+  #talkbubble {
+    /* width: 100%; */
+    /* height: 80px; */
+    background: white;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 5px;
+    max-height: 640;
+    /* width: 30rem; */
+  }
+  #talkbubble:before {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-left: 26px solid white;
+    border-bottom: 13px solid transparent;
+  }
+
+
+  #tv {
+    position: relative;
+    /* width: 200px;
+    height: 150px; */
+    margin: 20px 0;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50% / 10%;
+    /* color: white; */
+    text-align: center;
+    text-indent: .1em;
+  }
+  #tv:before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: -5%;
+    left: -5%;
+    background: inherit;
+    border-radius: 5% / 50%;
+  }

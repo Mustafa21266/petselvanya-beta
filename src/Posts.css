@@ -1,0 +1,32 @@
+.create-post {
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.post {
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.comment-div {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+}
+.loved {
+    color: red;
+}
+.not-loved {
+    color: white;
+}
+@media only screen and (max-width: 1400px) {
+
+  }
+
